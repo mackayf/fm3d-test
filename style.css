@@ -40,7 +40,7 @@ h1 {
 
 .flexbutton {
     padding: none;
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;
     margin: auto;
   }
