@@ -50,7 +50,7 @@ h1 {
        width: 200px;
             }
 
-    .button a {
-        font-size: .8rem;
+    .flexbutton {
+        font-size: .4rem;
             }
         }
