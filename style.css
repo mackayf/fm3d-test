@@ -64,7 +64,11 @@ h2 {
         height: 2rem;
     }
 
+    .button {
+        background: transparent !important;
+    }
+
     .flexbutton {
-        
+        background: transparent !important;
             }
         }
