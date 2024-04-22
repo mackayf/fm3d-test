@@ -13,7 +13,8 @@ h1 {
 }
 
 h2 {
-    margin-top: 5rem;
+    margin-top: 100px;
+    padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
