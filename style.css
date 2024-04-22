@@ -13,14 +13,8 @@ h1 {
 }
 
 h2 {
-    margin-top: 100px;
-    padding: 20px;
+    margin-top: 5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: transparent !important;
-}
-
-p {
-    background: transparent !important;
 }
 
 .button {
@@ -60,12 +54,17 @@ p {
     
   }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 200px) and (max-width: 1200px) {
     h1.logo {
        width: 200px;
             }
+    .button a {
+        font-size: 1rem;
+        padding: 10px;
+        height: 2rem;
+    }
 
     .flexbutton {
-        font-size: .2rem;
+        
             }
         }
