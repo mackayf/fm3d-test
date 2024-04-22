@@ -16,6 +16,7 @@ h1 {
     padding: 0;
     display: flex;
     background: transparent !important;
+    border: none !important;
     }
 
 .button a {
@@ -45,7 +46,7 @@ h1 {
     justify-content: space-around;
     margin: auto;
     background: transparent !important;
-    border: none;
+    border: none !important;
   }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
