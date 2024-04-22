@@ -11,7 +11,7 @@ h1 {
     display: flex;
 }
 
-nav .button {
+.nav .button {
   background-color: #04AA6D; /* Green */
   border: none;
   color: white;
