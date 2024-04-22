@@ -10,14 +10,18 @@ h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: center;
     display: flex;
-    }
+}
+
+h2 {
+    margin-top: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .button {
     padding: 0;
     display: flex;
-    background: transparent !important;
-    border: none !important;
-    }
+    height: 1.2rem;
+}
 
 .button a {
     background-color: #59603e; /* Green */
@@ -28,13 +32,13 @@ h1 {
     font-size: 1.5rem;
     text-decoration: none;
     box-shadow: 0 0 0 .2rem #6A6006;
-    }
+  }
   
 .button a:hover {
     color: #D9C40D;
     background-color: #6A6006;
     transition: all 2s, color 1s;
-    }
+  }
 
 .button a:active {
     color: lightblue;
@@ -42,11 +46,12 @@ h1 {
 
 .flexbutton {
     padding: none;
-    display: inline-flex;
+    display: flex;
     justify-content: space-around;
     margin: auto;
+    border: none;
     background: transparent !important;
-    border: none !important;
+    
   }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
