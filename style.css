@@ -1,5 +1,6 @@
 html {
     background-color: hsl(55, 25%, 70%);
+    font-size: 18px;
 }
 
 h1 {
@@ -11,19 +12,45 @@ h1 {
     display: flex;
 }
 
-.li, .button {
-  background-color: #04AA6D; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+.button {
+    padding: 0;
+    display: flex;
 }
+
+.button a {
+    background-color: #59603e; /* Green */
+    color: #c6c29f;
+    padding: 20px;
+    align-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    box-shadow: 0 0 0 .2rem #6A6006;
+  }
+  
+  .button a:hover {
+    color: #D9C40D;
+    background-color: #6A6006;
+    transition: all 2s, color 1s;
+  }
+
+  .button a:active {
+    color: lightblue;
+  }
+
+  .flexbutton {
+    padding: none;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     h1.logo {
        width: 200px;
             }
-    }
+
+    .button a {
+        font-size: .8rem;
+            }
+        }
